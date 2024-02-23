@@ -96,7 +96,7 @@ def run_one_game ( program_1:    types.ModuleType,
               "render_mode": render_mode,
               "preprocessing_time": PREPROCESSING_TIME,
               "turn_time": TURN_TIME,
-              "synchronous": True,
+              "game_mode" : "synchronous",
               "random_seed": seed}
         
     # Set up the game
